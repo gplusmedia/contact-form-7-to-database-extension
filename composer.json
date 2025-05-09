@@ -20,7 +20,7 @@
     "issues": "https://github.com/gplusmedia/contact-form-7-to-database-extension/issues"
   },
   "require": {
-    "php": ">5.3",
+    "php": ">=7.0",
     "composer/installers": ">=1.6.0"
   },
   "require-dev": {
