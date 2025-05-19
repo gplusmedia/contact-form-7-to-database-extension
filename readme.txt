@@ -4,9 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=NEVDJ
 Tags: contact form,database,contact form database,save contact form,form database,CFDB
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Requires at least: 3.2.1
-Tested up to: 5.0.2
-Stable tag: 2.10.36
+Stable tag: 2.10.39
 
 Saves submitted form data to the database. Export the data to a file or use shortcodes to display it.
 

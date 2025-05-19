@@ -1224,7 +1224,7 @@ class CF7DBPlugin extends CF7DBPluginLifeCycle implements CFDBDateFormatter {
         }
 
         if (CF7DBPlugin::$customDateFormat) {
-            return date(CF7DBPlugin::$customDateFormat, $time);
+            return date(CF7DBPlugin::$customDateFormat, intval($time));
         }
         else {
             return date_i18n(CF7DBPlugin::$dateFormat . ' ' . CF7DBPlugin::$timeFormat, $time);

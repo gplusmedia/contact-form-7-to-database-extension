@@ -17,9 +17,7 @@ trait Singleton
      */
     final public static function getInstance()
     {
-        return isset(static::$instance)
-            ? static::$instance
-            : static::$instance = new static;
+        return static::$instance ?? static::$instance = new static;
     }
 
     /**
@@ -36,6 +34,6 @@ trait Singleton
      */
     protected function init() {}
 
-    final private function __wakeup() {}
-    final private function __clone() {}
+    private function __wakeup() {}
+    private function __clone() {}
 }
